@@ -84,7 +84,7 @@ def test_readable_function():
 
 def func_name_and_argument(func, *args):
     result_text = f'{func.__name__.title().replace("_"," ") } [{", ".join(args)}]'
-    print(result_text)
+    print('\n',result_text)
     return result_text
 
 
